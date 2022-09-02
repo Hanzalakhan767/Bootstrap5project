@@ -1,0 +1,258 @@
+.bg-img {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0e1d34;
+    background-image: url("./IMAGES/background.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.nav-item {
+    color: white;
+}
+
+.butn-1 button {
+    background: #1041f1;
+    padding: 8px 20px;
+    margin-left: 30px;
+    border-radius: 8px;
+    color: #fff;
+    border: white;
+}
+
+.navbar-brand {
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 2.25rem;
+    text-decoration: none;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 15px;
+    padding: 15px;
+}
+
+.container-xl,
+.container-xxl {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.line h1 {
+    margin-bottom: 20px;
+    padding: 34px 12px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.heading p {
+
+    margin: 0px;
+    padding: 0px 20px;
+}
+
+.inputSize {
+    padding: 14px 15px !important;
+}
+
+.buttonAbsolute {
+    position: absolute !important;
+    right: 11px;
+    top: 7px;
+    background: blue !important;
+    color: white;
+}
+
+.header {
+    padding: 50px 0px;
+}
+.pic-11{
+    padding: 7%;
+}
+.pic {
+    width: 80vh;
+    height: 80vh;
+}
+
+.border-bottom {
+    width: 30px;
+    border-bottom: 1px solid #0d42ff !important;
+    padding: 1px;
+}
+
+.flexDiv {
+    display: flex;
+}
+
+.flex-00 {
+    margin: 6px 28px;
+}
+
+.form-control {
+    height: 75px;
+}
+
+.hoverbtn {
+    background: transparent;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+.hoverbtn:hover {
+
+    transition: all 4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    background-color: #0d42ff;
+    border: transparent;
+
+}
+
+.btn-outline-secondary {
+    background: blue;
+    position: absolute !important;
+    right: 10px;
+    bottom: 13px;
+    height: 45px;
+    color: white;
+    width: 25vh;
+}
+
+.arrow {
+    font-size: 40px;
+}
+
+.border-bottom1 {
+    width: 100px;
+    border-bottom: 2px solid #0d42ff !important;
+    padding: 2px;
+    position: relative;
+    left: 47%;
+}
+
+.cent-000 {
+    color: rgba(14, 29, 52, 0.06);
+    font-size: 50px;
+}
+
+.picturess {
+    background-image: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8)), url(./IMAGES/testimonials-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    height: 60%;
+    position: absolute;
+
+
+}
+
+.cetr-001 h2 {
+    left: 50%;
+    right: 50%;
+    margin: -53px 0px 0px -65px;
+}
+
+.cetr-00 h2 {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    margin: -53px 0px 0px -65px;
+}
+
+@media (max-width: 991px) and (min-width: 320px) {
+    .pic {
+        width: 70vh;
+        height: 80vh;
+    }
+}
+
+.image-attachment {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./IMAGES/cta-bg.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 65%;
+    background-attachment: fixed;
+
+
+}
+
+.picSize {
+    width: 20vh;
+    height: 20vh;
+}
+
+.kkk {
+    color: #ffc107 !important;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 50%;
+    bottom: 0;
+    border-radius: 5px;
+    left: 33%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    width: 64px;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
+}
+
+.background-00 {
+    background-color: #0e1d34;
+}
+
+.ullis {
+    list-style: none;
+}
+
+.nav-down {
+ 
+    background: rgba(14, 29, 52, 0.9)!important;
+    padding: 15px 30px;
+    box-shadow: 0px 2px 20px rgb(14 29 52 / 10%);
+}
+
+.background-99 {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    transition: all 0.5s;
+    z-index: 997;
+}
+.list{
+    width: 88%;
+}
+.flex-end{
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    z-index: 99999;
+    width: 40px;
+    height: 40px;
+    font-size: 45px;
+    border-radius: 4px;
+    transition: all 0.4s;
+}
+.images-13 img{
+    transition:all 1s linear;
+    overflow: hidden;
+}
+.images-13 img:hover{
+    transform: scale(1.3);
+}
