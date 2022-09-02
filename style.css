@@ -238,15 +238,15 @@
 .list{
     width: 88%;
 }
-.flex-end{
+ 
+.flex-end {
     position: fixed;
-    right: 15px;
-    bottom: 15px;
+    right: 50px;
+    bottom: 50px;
     z-index: 99999;
-    width: 40px;
+    width: 50px;
     height: 40px;
     font-size: 45px;
-    border-radius: 4px;
     transition: all 0.4s;
 }
 .images-13 img{
