@@ -239,16 +239,6 @@
     width: 88%;
 }
  
-.flex-end {
-    position: fixed;
-    right: 50px;
-    bottom: 50px;
-    z-index: 99999;
-    width: 50px;
-    height: 40px;
-    font-size: 45px;
-    transition: all 0.4s;
-}
 .images-13 img{
     transition:all 1s linear;
     overflow: hidden;
